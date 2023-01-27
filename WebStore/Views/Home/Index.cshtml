@@ -1,0 +1,19 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style>
+        a { 
+            text-decoration: none; 
+        } 
+    </style>
+</head>
+<body>
+<p>First View from Home controller</p>
+<p>Всем привет!</p>
+<a asp-controller="Home" asp-action="Employees">Сотрудники</a>
+</body>
+</html>
